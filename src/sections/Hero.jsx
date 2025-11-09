@@ -7,13 +7,13 @@ const Hero = () => {
     <div id="home" className="hero relative overflow-hidden min-h-screen">
       {/* Left middle blob - blue */}
       <div
-        className="absolute top-1/2 w-84 h-84 bg-gradient-to-r from-blue-500 via-blue-400 to-cyan-400 rounded-full mix-blend-multiply filter blur-3xl opacity-25 -translate-y-1/2 animate-blob"
+        className="absolute top-1/2 w-84 h-84 bg-linear-to-r from-blue-500 via-blue-400 to-cyan-400 rounded-full mix-blend-multiply filter blur-3xl opacity-25 -translate-y-1/2 animate-blob"
         style={{ left: "25%" }}
       ></div>
 
       {/* Right middle blob - purple/indigo */}
       <div
-        className="absolute top-1/2 w-84 h-84 bg-gradient-to-r from-purple-500 via-indigo-400 to-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-25 -translate-y-1/2 animate-blob animation-delay-2000"
+        className="absolute top-1/2 w-84 h-84 bg-linear-to-r from-purple-500 via-indigo-400 to-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-25 -translate-y-1/2 animate-blob animation-delay-2000"
         style={{ right: "25%" }}
       ></div>
 
