@@ -158,11 +158,11 @@ const Project1 = () => {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Tools & Technologies
           </h2>
-          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-0 md:gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-0">
             {tools.map((tool, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center p-3 bg-gray-50 rounded-none md:rounded-md shadow-sm hover:shadow-md transition"
+                className="flex flex-col items-center justify-center p-3 bg-gray-50 rounded-none shadow-sm hover:shadow-md transition"
               >
                 <div className="text-3xl mb-2">{tool.icon}</div>
                 <span className="text-gray-700 text-sm font-medium">

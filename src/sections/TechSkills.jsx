@@ -16,7 +16,10 @@ import {
   SiWordpress,
   SiExpress, 
   SiExpo,
+   SiNestjs, 
+   SiPostgresql,
 } from "react-icons/si";
+import { HiDatabase } from "react-icons/hi";
 
 const techs = [
   { name: "React", icon: <FaReact size={45} className="text-blue-500" /> },
@@ -45,6 +48,19 @@ const techs = [
     icon: <SiTailwindcss size={45} className="text-teal-400" />,
   },
   { name: "Expo", icon: <SiExpo size={45} className="text-black" /> },
+
+  // {
+  //   name: "SQL",
+  //   icon: <HiDatabase size={45} className="text-sky-600" />, // ✅ works fine
+  // },
+  //  {
+  //   name: "NestJS",
+  //   icon: <SiNestjs size={45} className="text-red-600" />, // ✅ NestJS in red
+  // },
+  // {
+  //   name: "PostgreSQL",
+  //   icon: <SiPostgresql size={45} className="text-sky-700" />, // ✅ Added Postgres
+  // },
 ];
 
 const TechSkills = () => {
@@ -59,11 +75,11 @@ const TechSkills = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 md:gap-6">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 ">
         {techs.map((tech, index) => (
           <div
             key={index}
-            className="card rounded-none md:rounded-md bg-base-100 shadow-sm flex flex-col items-center justify-center p-6 sm:p-8 hover:shadow-md transition"
+            className="card rounded-none  bg-base-100 shadow-sm flex flex-col items-center justify-center p-6 sm:p-8 hover:shadow-md transition"
           >
             <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-gray-100 mb-3">
               {tech.icon}

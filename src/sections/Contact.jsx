@@ -52,7 +52,7 @@ const Contact = () => {
             Get in <span className="text-slate-700">Touch</span>
           </h3>
           <p className="text-gray-500 mt-2 text-sm md:text-lg text-center">
-            I’m open to full-time opportunities — let’s connect.
+            I’m open to full-time opportunities, let’s connect.
           </p>
         </div>
 
