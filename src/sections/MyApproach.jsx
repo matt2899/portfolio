@@ -1,5 +1,5 @@
 import React from "react";
-import myApproachImage from "../assets/myApproach.JPG";
+import myApproachImage from "../assets/myApproach.jpg";
 
 const MyApproach = () => {
   return (
