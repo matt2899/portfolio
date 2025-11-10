@@ -10,11 +10,11 @@ const MyApproach = () => {
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
         {/* Left Content */}
         <div>
-          <h2 className="text-2xl md:text-4xl font-bold text-primary">
+          <h2 className="text-2xl md:text-4xl font-bold text-primary text-center md:text-left">
             My <span className="text-slate-700">Approach</span>
           </h2>
 
-          <div className="mt-8 space-y-6 text-gray-700 text-base  leading-relaxed">
+          <div className="mt-8 space-y-6 text-gray-700 text-base leading-relaxed">
             <p>
               I approach development with a balance of{" "}
               <span className="font-semibold text-gray-900">

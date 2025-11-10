@@ -51,15 +51,15 @@ const techs = [
 
   // {
   //   name: "SQL",
-  //   icon: <HiDatabase size={45} className="text-sky-600" />, // ✅ works fine
+  //   icon: <HiDatabase size={45} className="text-sky-600" />,
   // },
   //  {
   //   name: "NestJS",
-  //   icon: <SiNestjs size={45} className="text-red-600" />, // ✅ NestJS in red
+  //   icon: <SiNestjs size={45} className="text-red-600" />, 
   // },
   // {
   //   name: "PostgreSQL",
-  //   icon: <SiPostgresql size={45} className="text-sky-700" />, // ✅ Added Postgres
+  //   icon: <SiPostgresql size={45} className="text-sky-700" />, 
   // },
 ];
 
