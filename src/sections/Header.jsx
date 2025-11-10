@@ -87,8 +87,7 @@ const Header = () => {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://ph.linkedin.com/in/matt-marquez-bb039729b?trk=people-guest_people_search-card
-"
+            href="https://www.linkedin.com/in/matt-marquez-bb039729b/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-ghost btn-circle"

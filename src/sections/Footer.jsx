@@ -33,7 +33,7 @@ const Footer = () => {
             <FaGithub className="text-2xl" />
           </a>
           <a
-            href="https://ph.linkedin.com/in/matt-marquez-bb039729b?trk=people-guest_people_search-card"
+            href="https://www.linkedin.com/in/matt-marquez-bb039729b/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-base-200 transition-colors"

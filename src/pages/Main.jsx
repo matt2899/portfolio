@@ -7,6 +7,7 @@ import Background from "../sections/Background";
 import Contact from "../sections/Contact";
 import Footer from "../sections/Footer";
 import MyApproach from '../sections/MyApproach';
+import MyCertificates from '../sections/MyCertificates';
 
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
       <TechSkills id="skills" />
       <Projects id="projects" />
       <Background id="background" />
+      <MyCertificates id="certificates" />
       <Contact id="contact" />
       <Footer />
     </>

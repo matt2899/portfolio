@@ -3,9 +3,9 @@ import myApproachImage from "../assets/myApproach.jpg";
 
 const MyApproach = () => {
   return (
-    <section className="relative py-20 px-6 md:px-12 lg:px-24 overflow-hidden bg-gradient-to-b from-white to-gray-50">
+    <section className="relative py-20 px-6 md:px-12 lg:px-24 overflow-hidden bg-linear-to-b from-white to-gray-50">
       {/* Subtle Background Accent */}
-      <div className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-blue-100 via-purple-100 to-pink-50 blur-3xl opacity-30"></div>
+      <div className="hidden lg:block absolute right-0 top-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-linear-to-tr from-blue-100 via-purple-100 to-pink-50 blur-3xl opacity-30"></div>
 
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
         {/* Left Content */}

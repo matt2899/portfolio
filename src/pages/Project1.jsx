@@ -144,7 +144,7 @@ const Project1 = () => {
           </div>
 
           {/* Image only on large screens */}
-          <div className="hidden lg:block flex-shrink-0 w-[350px]">
+          <div className="hidden lg:block shrink-0 w-[350px]">
             <img
               src={pesoLandingPage}
               alt="Project Preview"

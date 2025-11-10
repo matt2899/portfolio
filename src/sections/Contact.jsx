@@ -59,7 +59,7 @@ const Contact = () => {
         <div className="flex flex-col items-center gap-3 text-gray-600">
           <div className="flex items-center gap-2">
             <FaPhone className="text-primary" />
-            <a href="tel:+6391620777513" className="hover:underline">
+            <a href="tel:+6391620777513" className="underline text-primary">
               +63 916 207 77513
             </a>
           </div>
@@ -67,7 +67,7 @@ const Contact = () => {
             <FaEnvelope className="text-primary" />
             <a
               href="mailto:mattjovan.marquez28@gmail.com"
-              className="hover:underline"
+              className="underline text-primary"
             >
               mattjovan.marquez28@gmail.com
             </a>
@@ -75,12 +75,12 @@ const Contact = () => {
           <div className="flex items-center gap-2">
             <FaLinkedin className="text-primary" />
             <a
-              href="https://linkedin.com/in/mattjovanmarquez"
+              href="https://www.linkedin.com/in/matt-marquez-bb039729b/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline"
+              className="underline text-primary"
             >
-              linkedin.com/in/mattjovanmarquez
+              https://linkedin.com/in/matt-marquez-bb039729b/
             </a>
           </div>
         </div>
