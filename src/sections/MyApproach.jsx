@@ -10,7 +10,7 @@ const MyApproach = () => {
       <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
         {/* Left Content */}
         <div>
-          <h2 className="text-2xl md:text-4xl font-bold text-primary text-center md:text-left">
+          <h2 className="text-2xl md:text-4xl font-bold text-primary text-center lg:text-left">
             My <span className="text-slate-700">Approach</span>
           </h2>
 
