@@ -35,7 +35,7 @@ const MyCertificates = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-primary">
           My <span className="text-gray-700">Certificates</span>
         </h2>
-        <p className="text-gray-500 mt-3 text-sm md:text-base">
+        <p className="text-gray-500 mt-2 text-sm md:text-lg">
           Lifelong learning is at the heart of my growth as a developer.
         </p>
       </div>
