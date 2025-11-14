@@ -43,9 +43,9 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-2 align-center justify-center mt-4">
-            <button className="btn md:btn-lg btn-primary flex items-center gap-2">
+            <a href="/Marquez_CV.pdf" download="Marquez_CV.pdf" className="btn md:btn-lg btn-primary flex items-center gap-2">
               <FaDownload /> Download CV
-            </button>
+            </a>
             <button
               className="btn md:btn-lg btn-outline btn-primary flex items-center gap-2"
               onClick={() => {

@@ -80,7 +80,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="underline text-primary"
             >
-              https://linkedin.com/in/matt-marquez-bb039729b/
+              linkedin.com/in/matt-marquez-bb039729b/
             </a>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Contact = () => {
 
       {/* Right contact form */}
       <div className="w-full md:w-1/2">
-        <div className="card bg-base-100 w-full shrink-0 shadow-md bg-base-200">
+        <div className="card bg-base-100 w-full shrink-0 shadow-md bg-base-200 ">
           <div className="card-body">
             <form ref={form} onSubmit={sendEmail}>
               <fieldset className="fieldset">

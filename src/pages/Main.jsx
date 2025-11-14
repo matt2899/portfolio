@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Header from "../sections/Header";
 import Hero from "../sections/Hero";
 import TechSkills from "../sections/TechSkills";
@@ -6,8 +6,9 @@ import Projects from "../sections/Projects";
 import Background from "../sections/Background";
 import Contact from "../sections/Contact";
 import Footer from "../sections/Footer";
-import MyApproach from '../sections/MyApproach';
-import MyCertificates from '../sections/MyCertificates';
+import MyApproach from "../sections/MyApproach";
+import MyCertificates from "../sections/MyCertificates";
+
 
 const Main = () => {
   return (
@@ -22,7 +23,7 @@ const Main = () => {
       <Contact id="contact" />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
