@@ -46,7 +46,14 @@ const Projects = () => {
             >
               View Details
             </button>
-            <button className="btn btn-outline btn-primary">GitHub</button>
+            <a
+              href="https://github.com/matt2899/peso-city-of-taguig-website"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline btn-primary"
+            >
+              GitHub
+            </a>
           </div>
         </div>
       </div>
@@ -74,7 +81,12 @@ const Projects = () => {
             challenging levels.
           </p>
           <div className="flex justify-center md:justify-start gap-4">
-            <button className="btn btn-primary" onClick={() => navigate("/project2")}>View Project</button>
+            <button
+              className="btn btn-primary"
+              onClick={() => navigate("/project2")}
+            >
+              View Project
+            </button>
             <button className="btn btn-outline btn-primary">GitHub</button>
           </div>
         </div>
