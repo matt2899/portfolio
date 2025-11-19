@@ -177,7 +177,7 @@ const Project1 = () => {
         <div className="mb-10">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Links</h2>
           <a
-            href="https://github.com/your-repo"
+            href="https://github.com/matt2899/peso-city-of-taguig-website"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2 bg-primary text-white font-medium rounded-md hover:bg-blue-500 transition"
