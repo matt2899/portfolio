@@ -18,6 +18,7 @@ import {
   SiWordpress,
   SiExpress, 
   SiExpo,
+  SiPostman,
    SiNestjs, 
    SiPostgresql,
 } from "react-icons/si";
@@ -38,6 +39,7 @@ const techs = [
   { name: "Expo", icon: <SiExpo size={45} className="text-black" /> },
   { name: "Git", icon: <FaGit size={45} className="text-red-500" /> },
   { name: "GitHub", icon: <FaGithub size={45} className="text-gray-800" /> },
+  { name: "Postman", icon: <SiPostman size={45} className="text-orange-500" /> },
   // {
   //   name: "SQL",
   //   icon: <HiDatabase size={45} className="text-sky-600" />,
