@@ -7,6 +7,8 @@ import {
   FaJs,
   FaAngular,
   FaBootstrap,
+  FaGit,
+  FaGithub,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -23,37 +25,24 @@ import { HiDatabase } from "react-icons/hi";
 
 const techs = [
   { name: "React", icon: <FaReact size={45} className="text-blue-500" /> },
-   { name: "Node.js", icon: <FaNodeJs size={45} className="text-green-500" /> },
+  { name: "Node.js", icon: <FaNodeJs size={45} className="text-green-500" /> },
   { name: "Express.js", icon: <SiExpress size={45} className="text-gray-700" /> },
-  {
-    name: "WordPress",
-    icon: <SiWordpress size={45} className="text-blue-800" />,
-  },
+  { name: "WordPress", icon: <SiWordpress size={45} className="text-blue-800" /> },
   { name: "MongoDB", icon: <SiMongodb size={45} className="text-green-700" /> },
-  {
-    name: "Bootstrap",
-    icon: <FaBootstrap size={45} className="text-purple-600" />,
-  },
-  {
-    name: "TypeScript",
-    icon: <SiTypescript size={45} className="text-blue-700" />,
-  },
- 
+  { name: "Bootstrap", icon: <FaBootstrap size={45} className="text-purple-600" /> },
+  { name: "TypeScript", icon: <SiTypescript size={45} className="text-blue-700" /> },
   { name: "HTML5", icon: <FaHtml5 size={45} className="text-orange-500" /> },
   { name: "CSS3", icon: <FaCss3Alt size={45} className="text-blue-600" /> },
   { name: "JavaScript", icon: <FaJs size={45} className="text-yellow-500" /> },
-
-  {
-    name: "Tailwind",
-    icon: <SiTailwindcss size={45} className="text-teal-400" />,
-  },
+  { name: "Tailwind", icon: <SiTailwindcss size={45} className="text-teal-400" /> },
   { name: "Expo", icon: <SiExpo size={45} className="text-black" /> },
-
+  { name: "Git", icon: <FaGit size={45} className="text-red-500" /> },
+  { name: "GitHub", icon: <FaGithub size={45} className="text-gray-800" /> },
   // {
   //   name: "SQL",
   //   icon: <HiDatabase size={45} className="text-sky-600" />,
   // },
-  //  {
+  // {
   //   name: "NestJS",
   //   icon: <SiNestjs size={45} className="text-red-600" />, 
   // },
