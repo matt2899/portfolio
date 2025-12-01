@@ -41,7 +41,7 @@ const Header = () => {
         {/* Left: Logo */}
         <div className="flex-1">
           <a className="btn btn-ghost text-xl font-bold text-primary">
-            Mattfolio
+            Matt <span className="text-slate-700">Marquez</span>
           </a>
         </div>
 

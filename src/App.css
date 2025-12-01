@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+@import "tailwindcss";
+ @plugin "daisyui" {
+   themes: all;
+ }
