@@ -77,7 +77,7 @@ const techs = [
 
 const TechSkills = () => {
   return (
-    <div id="skills" className="px-6 py-20 md:px-12 lg:p-24 bg-base-200">
+    <div id="skills" className="px-6 py-20 md:px-12 lg:p-24">
       <div className="text-center mb-10 md:mb-24">
         <h2 className="text-2xl md:text-4xl font-bold text-primary">
           Tech <span className="text-slate-700">Stacks</span>

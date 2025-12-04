@@ -19,12 +19,21 @@ const Projects = () => {
 
       <div className="flex flex-col md:flex-row items-center gap-5 md:gap-12 mb-16">
         {/* Image Section */}
-        <div className="md:w-1/2 w-full">
+        <div className="md:w-1/2 w-full stack">
           <img
             src={pesoLandingPage}
             alt="Project"
             className="rounded-2xl shadow-xl hover:scale-[1.02] transition-transform duration-300"
           />
+          <div className="card bg-base-200 text-center shadow-md">
+            <div className="card-body">A</div>
+          </div>
+          <div className="card bg-base-200 text-center shadow">
+            <div className="card-body">B</div>
+          </div>
+          <div className="card bg-base-200 text-center shadow-sm">
+            <div className="card-body">C</div>
+          </div>
         </div>
 
         {/* Text Section */}
@@ -61,12 +70,21 @@ const Projects = () => {
       {/* You can duplicate this block for more projects */}
       <div className="flex flex-col md:flex-row-reverse items-center gap-5 md:gap-12">
         {/* Image Section */}
-        <div className="md:w-1/2 w-full">
+        <div className="md:w-1/2 w-full stack">
           <img
             src={astereiaFirst}
             alt="Project"
             className="rounded-2xl shadow-xl hover:scale-[1.02] transition-transform duration-300"
           />
+          <div className="card bg-base-200 text-center shadow-md">
+            <div className="card-body">A</div>
+          </div>
+          <div className="card bg-base-200 text-center shadow">
+            <div className="card-body">B</div>
+          </div>
+          <div className="card bg-base-200 text-center shadow-sm">
+            <div className="card-body">C</div>
+          </div>
         </div>
 
         {/* Text Section */}

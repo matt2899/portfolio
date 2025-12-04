@@ -24,7 +24,7 @@ const Background = () => {
   ];
 
   return (
-    <div id="background" className="px-6 py-20 md:px-12 lg:p-24 bg-base-200">
+    <div id="background" className="px-6 py-20 md:px-12 lg:p-24">
       <div className="flex flex-col md:flex-row gap-6 md:gap-16">
         {/* Work Experience */}
         <div className="md:w-1/2">

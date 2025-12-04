@@ -29,7 +29,7 @@ const MyCertificates = () => {
   ];
 
   return (
-    <section className="px-6 py-20 md:px-12 lg:p-24 bg-base-200">
+    <section className="px-6 py-20 md:px-12 lg:p-24">
       {/* Header */}
       <div className="text-center mb-20">
         <h2 className="text-3xl md:text-4xl font-bold text-primary">
